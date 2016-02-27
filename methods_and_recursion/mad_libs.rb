@@ -25,11 +25,8 @@ another_adjective_2 = ask_question('nother adjective')
 number = ask_question(' number')
 another_plural_noun_3 = ask_question('nother plural noun')
 
-
-
-
-
 puts <<-TEXT
+Here is your madlib:
 A vacation is when you take a trip to some #{adjective} place
 with your #{another_adjective} family.  Usually you go to some place
 that is near a/an #{noun} or up on a/an #{another_noun}.
@@ -47,5 +44,3 @@ need vacation more than kids because parents are always very
 hours every day all year making enough #{another_plural_noun_3} to pay
 for the vacation.
 TEXT
-
-
