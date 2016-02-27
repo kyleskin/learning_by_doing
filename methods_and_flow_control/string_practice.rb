@@ -8,4 +8,5 @@ puts string.upcase
 puts string.gsub(/string/, "'string'").capitalize
 puts "The string '#{string}' has #{string.length} characters"
 puts string.reverse
-puts "#{string[/ practice/] * 3}!"
+puts (string[/practice /] * 3).rstrip + "!"
+
